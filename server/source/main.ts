@@ -1,10 +1,6 @@
 import express from "express";
-import { nanoid } from "nanoid";
 import { resolve } from "path";
-
-const getId = () => {
-  return nanoid();
-};
+import { getId } from "shared";
 
 const app = express();
 

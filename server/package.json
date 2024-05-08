@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.3",
-    "nanoid": "^3.3.7"
+    "shared": "file:../shared"
   },
   "devDependencies": {
     "@types/node": "^20.11.28",

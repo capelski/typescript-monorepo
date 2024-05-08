@@ -8,9 +8,9 @@
   "author": "Carles Capellas <capellas.carles@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "nanoid": "^3.3.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "shared": "file:../shared"
   },
   "devDependencies": {
     "html-loader": "^4.2.0",

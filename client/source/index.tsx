@@ -1,10 +1,6 @@
-import { nanoid } from "nanoid";
 import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
-
-const getId = () => {
-  return nanoid();
-};
+import { getId } from "shared";
 
 const container = document.getElementById("app-placeholder")!;
 const root = createRoot(container);
