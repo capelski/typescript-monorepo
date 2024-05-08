@@ -5,8 +5,8 @@
     "lib": ["dom", "es2017"],
     "module": "commonjs",
     "outDir": "./dist",
-    "rootDir": "./source",
+    "rootDir": "..",
     "target": "es2016"
   },
-  "include": ["source/**/*"]
+  "include": ["source/**/*", "../shared"]
 }

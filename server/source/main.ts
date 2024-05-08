@@ -1,14 +1,10 @@
 import express from "express";
-import { nanoid } from "nanoid";
 import { resolve } from "path";
-
-const getId = () => {
-  return nanoid();
-};
+import { getId } from "../../shared";
 
 const app = express();
 
-app.use(express.static(resolve(__dirname, "..", "public")));
+app.use(express.static(resolve(__dirname, "..", "..", "..", "public")));
 
 app.get("/get-id", (_req, res) => {
   res.send(getId());

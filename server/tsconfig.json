@@ -3,9 +3,9 @@
     "esModuleInterop": true,
     "module": "commonjs",
     "outDir": "./dist",
-    "rootDir": "./source",
+    "rootDir": "..",
     "target": "es2016",
     "types": ["@types/node"]
   },
-  "include": ["source/**/*"]
+  "include": ["source/**/*", "../shared"]
 }
