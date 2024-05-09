@@ -8,5 +8,6 @@
     "rootDir": "./source",
     "target": "es2016"
   },
-  "include": ["source/**/*"]
+  "include": ["source/**/*"],
+  "references": [{ "path": "../shared" }]
 }
