@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "nodemon source/main.ts",
-    "docker-build": "docker build -f Dockerfile -t server .",
+    "docker-build": "docker build -f Dockerfile -t server ..",
     "docker-run": "docker run -p 3000:3000 server",
     "start": "node dist/main.js"
   },
